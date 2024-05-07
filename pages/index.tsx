@@ -100,7 +100,7 @@ export default function Home() {
 
     let [pinnedLinks, setPinnedLinks] = useState([{
         "name": "GitHub Repo",
-        "url": "https://github.com/cnrad/h.cnrad.dev",
+        "url": "https://github.com/ensomg",
         "image": "https://www.macobserver.com/wp-content/uploads/2019/05/workfeatured-GitHub-2.png"
     }]);
     
@@ -130,7 +130,7 @@ export default function Home() {
 
         if(params.title) setTitle(params.title);
         if(params.background) setBackground(params.background);
-        params.unit?.toUpperCase() == "C" ? setTemperatureUnit("C") : setTemperatureUnit("F");
+        params.unit?.toUpperCase() == "C" ? setTemperatureUnit("C") : setTemperatureUnit("C");
 
     }, [router.isReady])
 
@@ -148,7 +148,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>{title} - h.cnrad.dev</title>
+                <title>{title} - search.ensomg.net.tr</title>
             </Head>
             <Page>
                 <Widgets initial="init" animate="load" variants={mainVariants}>
